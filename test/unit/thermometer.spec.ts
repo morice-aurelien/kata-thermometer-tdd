@@ -8,4 +8,9 @@ describe("Kata Thermometer using TDD", () => {
         const temperature = 10;
         expect(thermometer(temperature)).toBe(10);
     });
+    it('should return the lowest temperature when two temperatures are provided', function () {
+        const temperature1 = 10;
+        const temperature2 = 5;
+        expect(thermometer(temperature1, temperature2)).toBe(5);
+    });
 });
