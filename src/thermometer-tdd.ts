@@ -1,3 +1,3 @@
 export function thermometer(temperature?: number) {
-    return 0;
+    return temperature || 0;
 }
